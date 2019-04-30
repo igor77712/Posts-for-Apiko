@@ -74,7 +74,7 @@ class App extends Component {
         {this.state.isLoading ? (
           <Loading />
         ) : (
-          <>
+          <React.Fragment>
             <PostList
               data={this.state.newData.slice(0, this.state.countPost)}
               countPost={this.state.countPost}
@@ -83,7 +83,7 @@ class App extends Component {
             {this.state.countPost < this.state.newData.length ? (
               <ButtonBlue text="More" onClick={this.onMoreClickHandler} />
             ) : null}
-          </>
+          </React.Fragment>
         )}
       </div>
     );
