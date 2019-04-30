@@ -1,0 +1,12 @@
+.ButtonBlue {
+  background-color: rgb(9, 80, 138);
+  color: white;
+  font-size: 1em;
+  margin: 10px;
+  padding: 10px;
+  /* max-width: 120px; */
+  align-self: center;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
